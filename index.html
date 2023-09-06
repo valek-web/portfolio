@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="apple-touch-icon" sizes="57x57" href="./icons/favicon/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="./icons/favicon/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="./icons/favicon/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="./icons/favicon/apple-icon-76x76.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./icons/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./icons/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./icons/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./icons/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./icons/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./icons/favicon/android-icon-192x192.png"
+        />
+        <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <title>Portfolio</title>
+        <meta name="title" content="Мое портфолио" />
+        <meta
+            name="description"
+            content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.min.css" />
+    </head>
+    <body>
+        <main>
+            <section class="promo">
+                <div class="container">
+                    <header class="header" data-aos="fade-right">
+                        <div class="above_title"><span>Меня зовут Валентин</span></div>
+                        <h1 class="header__title">
+                            Я web-разработчик <br />
+                            из города Воронеж
+                        </h1>
+                        <div class="header__links">
+                            <button class="button" onclick="window.location.href = '#skills'">
+                                Портфолио
+                            </button>
+                            <div class="header__link"><a href="#about-me"> Про меня</a></div>
+                        </div>
+                    </header>
+                    <button class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <aside class="social">
+                        <div class="social__text">Социальные сети</div>
+                        <div class="social__line"></div>
+                        <div class="social__network">
+                            <div class="github">
+                                <a href="https://github.com/valek-web"
+                                    ><i class="fa-brands fa-github"></i
+                                ></a>
+                            </div>
+                            <div class="vk">
+                                <a href="https://vk.com/ziruanov"
+                                    ><i class="fa-brands fa-vk"></i
+                                ></a>
+                            </div>
+                            <div class="telegram">
+                                <a href="https://t.me/valek_120"
+                                    ><i class="fa-brands fa-telegram"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </aside>
+                    <nav class="main-menu">
+                        <ul class="main-menu__links">
+                            <li class="main-menu__element">
+                                <a href="#about-me" class="main-menu__link">ПРО МЕНЯ</a>
+                            </li>
+                            <li class="main-menu__element">
+                                <a href="#benefit" class="main-menu__link">МОЙ ОПЫТ</a>
+                            </li>
+                            <li class="main-menu__element">
+                                <a href="#skills" class="main-menu__link">МОИ НАВЫКИ</a>
+                            </li>
+                            <li class="main-menu__element">
+                                <a href="#works" class="main-menu__link">МОИ РАБОТЫ</a>
+                            </li>
+                            <li class="main-menu__element">
+                                <a href="#prices" class="main-menu__link">ПРАЙС-ЛИСТ</a>
+                            </li>
+                            <li class="main-menu__element">
+                                <a href="#contact" class="main-menu__link">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                        <div class="main-menu__social">
+                            <div class="github">
+                                <a href="https://github.com/valek-web"
+                                    ><i class="fa-brands fa-github"></i
+                                ></a>
+                            </div>
+                            <div class="vk">
+                                <a href="https://vk.com/ziruanov"
+                                    ><i class="fa-brands fa-vk"></i
+                                ></a>
+                            </div>
+                            <div class="telegram">
+                                <a href="https://t.me/valek_120"
+                                    ><i class="fa-brands fa-telegram"></i
+                                ></a>
+                            </div>
+                        </div>
+                        <button class="main-menu__close"><span></span><span></span></button>
+                    </nav>
+                    <div class="bg_menu"></div>
+                </div>
+            </section>
+            <section class="about-me" id="about-me">
+                <div class="container">
+                    <div class="about-me__wrapper">
+                        <div class="about-me__photo">
+                            <img src="./img/my_photo.png" alt="my_photo" />
+                        </div>
+                        <div class="about-me__info">
+                            <div class="above_title">Про меня</div>
+                            <h1 class="title">Меня зовут Валентин</h1>
+                            <div class="about-me__descr"></div>
+                            <ul class="about-me__skills">
+                                <li class="skill" data-aos="fade-left">
+                                    <div class="skill__img"><i class="fa-solid fa-code"></i></div>
+                                    <div class="skill__info">
+                                        <div class="skill__title">Web-разработка</div>
+                                        <div class="skill__descr">
+                                            Веб-разработка — процесс создания веб-сайта или
+                                            веб-приложения. Вёрстка страниц, программирование на
+                                            стороне клиента.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="skill" data-aos="fade-left">
+                                    <div class="skill__img">
+                                        <i class="fa-brands fa-react"></i>
+                                    </div>
+                                    <div class="skill__info">
+                                        <div class="skill__title">React-разработка</div>
+                                        <div class="skill__descr">
+                                            Процесс создания веб-приложения при помощи библтотеки
+                                            react. Позволяет достаточно легко создать сервисы с
+                                            диномическим контентом
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="skill" data-aos="fade-left">
+                                    <div class="skill__img">
+                                        <i class="fa-solid fa-laptop-code"></i>
+                                    </div>
+                                    <div class="skill__info">
+                                        <div class="skill__title">Верстальщик</div>
+                                        <div class="skill__descr">
+                                            Написание визуальной части сайта, с использованием HTML,
+                                            СSS, JS по макету который создал дизайнер
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="benefit" id="benefit">
+                <div class="container">
+                    <div class="above_title">Опыт</div>
+                    <h1 class="title">Чем я буду полезен</h1>
+                    <div class="benefit__wrapper">
+                        <ul class="list" data-aos="fade-right">
+                            <li class="list__descr">Образование</li>
+                            <li class="list__element">
+                                <div class="list__img">
+                                    <i class="fa-solid fa-school"></i>
+                                </div>
+                                <div class="list__info">
+                                    <h2 class="list__title">Среднее образование</h2>
+                                    <div class="list__subtitle">Атестат об среднем образование</div>
+                                </div>
+                            </li>
+                            <li class="list__element">
+                                <div class="list__img">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <div class="list__info">
+                                    <h2 class="list__title">Udemy</h2>
+                                    <div class="list__subtitle">Курсы по Web-разработке</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list" data-aos="fade-left">
+                            <li class="list__descr">Опыт работы</li>
+                            <li class="list__element">
+                                <div class="list__img">
+                                    <i class="fa-solid fa-user-group"></i>
+                                </div>
+                                <div class="list__info">
+                                    <h2 class="list__title">Работа в команде</h2>
+                                    <div class="list__subtitle">
+                                        Разработка коммерческого проекта
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list__element">
+                                <div class="list__img">
+                                    <i class="fa-solid fa-handshake"></i>
+                                </div>
+                                <div class="list__info">
+                                    <h2 class="list__title">Проектная работа</h2>
+                                    <div class="list__subtitle">Проекты различной сложности</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <div class="container">
+                    <div class="above_title">Навыки</div>
+                    <h1 class="title">Что я использую в работе</h1>
+                    <div class="skills__wrapper">
+                        <div class="skills-item" data-aos="fade-right">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/HTML.webp" />
+                                    <img src="./img/use/HTML.png" alt="HTML5" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">HTML5</h3>
+                                <div class="skills-item__descr">
+                                    Именно он создает каркас вашего сайта или приложения, а пятая
+                                    версия позволит мне создавать более SEO-оптимизированную
+                                    структуру вашего продукта
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-right">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/css.webp" />
+                                    <img src="./img/use/css.png" alt="css" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">CSS3</h3>
+                                <div class="skills-item__descr">
+                                    Этот язык стилей позволяет мне создавать абсолютно любой внешний
+                                    вид вашего сайта или приложения. Все ограничивается только вашей
+                                    фантазией!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-left">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/js.webp" />
+                                    <img src="./img/use/js.webp" alt="JS" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">Java Script</h3>
+                                <div class="skills-item__descr">
+                                    Этот язык программирования позволяет оживить все что угодно:
+                                    слайдеры, окна, подсказки, вкладки, получение данных от сервера
+                                    и многое другое
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-left">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/Jquery.webp" />
+                                    <img src="./img/use/Jquery.png" alt="Jquery" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">Jquery</h3>
+                                <div class="skills-item__descr">
+                                    Библиотека Jquery позволит ускорить разработку. Без
+                                    необходимости интегрировать в проект мы её не будем, но навык
+                                    работы с ней присутствует
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-right">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/React.webp" />
+                                    <img src="./img/use/React.png" alt="React" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">React</h3>
+                                <div class="skills-item__descr">
+                                    Эта библиотека позволяет создавать web-приложения. Мы можем
+                                    создать максимально интерактивный продукт именно под ваши цели
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-right">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/git.webp" />
+                                    <img src="./img/use/git.png" alt="git" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">Git</h3>
+                                <div class="skills-item__descr">
+                                    Git — это система, которая позволяет сразу нескольким
+                                    разработчикам сохранять и отслеживать изменения в файлах вашего
+                                    проекта
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-left">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/gulp.webp" />
+                                    <img src="./img/use/gulp.png" alt="gulp" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">Gulp</h3>
+                                <div class="skills-item__descr">
+                                    Gulp - это инструмент для автоматизации рутинных задач, которые
+                                    возникают при веб-разработке.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-left">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/Redux.webp" />
+                                    <img src="./img/use/Redux.png" alt="Redux" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">Redux/ Redux toolkit</h3>
+                                <div class="skills-item__descr">
+                                    Redux — библиотека управления состоянием приложений, написанных
+                                    на JavaScript. Она помогает писать приложения, которые ведут
+                                    себя стабильно/предсказуемо
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-right">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/sass.webp" />
+                                    <img src="./img/use/sass.png" alt="sass" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">Sass</h3>
+                                <div class="skills-item__descr">
+                                    SASS – это препроцессор CSS, основной задачей которого является
+                                    расширение возможностей написания CSS кода
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-right">
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">БЕМ</h3>
+                                <div class="skills-item__descr">
+                                    Методология БЭМ — это набор универсальных правил, которые можно
+                                    применять независимо от используемых технологий
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-left">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/material-ui.webp" />
+                                    <img src="./img/use/material-ui.png" alt="material-ui" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">Material-ui</h3>
+                                <div class="skills-item__descr">
+                                    Material-ui — reactJS's фрэймворк, предоставляющий готовые
+                                    google решения для быстрой и довольно простой web разработки
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-left">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/styled.webp" />
+                                    <img src="./img/use/styled.png" alt="styled" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">Styled Components</h3>
+                                <div class="skills-item__descr">
+                                    Styled Components — одно из популярных решений написания кода
+                                    методом CSS in JS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-right">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/typescript.webp" />
+                                    <img src="./img/use/typescript.png" alt="typescript" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">TypeScript</h3>
+                                <div class="skills-item__descr">
+                                    TypeScript — это язык программирования построенный на базе
+                                    JavaScript, в котором исправлены многие его недостатки.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-item" data-aos="fade-right">
+                            <div class="skills-item__img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/use/mobx.webp" />
+                                    <img src="./img/use/mobx.png" alt="mobx" />
+                                </picture>
+                            </div>
+                            <div class="skills-item__info">
+                                <h3 class="skills-item__title">MobX</h3>
+                                <div class="skills-item__descr">
+                                    MobX — это автономная библиотека, для управления
+                                    фронтенд-состоянием приложения.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="works" id="works">
+                <div class="container">
+                    <div class="above_title">Портфолио</div>
+                    <h1 class="title">Мои работы</h1>
+                    <div class="works__wrapper">
+                        <div class="work" data-aos="zoom-in">
+                            <h3>Castway</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/Castway">Code</a>
+                                <a href="https://valek-web.github.io/Castway/">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>Pulse</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/Pulse">Code</a>
+                                <a href="https://valek-web.github.io/Pulse/">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>uBER</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/uBER">Code</a>
+                                <a href="https://valek-web.github.io/uBER/">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>Weather</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/Weather">Code</a>
+                                <a href="https://valek-web.github.io/Weather/">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>Marvel</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/Marvel">Code</a>
+                                <a href="https://valek-web.github.io/Marvel/#/characters">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>Cat energy</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/Cat_energy">Code</a>
+                                <a href="https://valek-web.github.io/Cat_energy/">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>To do</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/to_do">Code</a>
+                                <a href="https://valek-web.github.io/to_do/">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>Binary</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/BimareX">Code</a>
+                                <a href="https://valek-web.github.io/BimareX/">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>Convex</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/Convex">Code</a>
+                                <a href="https://valek-web.github.io/Convex/">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>Sushi</h3>
+                            <div class="work__wrapper">
+                                <a href="https://github.com/valek-web/Sushi">Code</a>
+                                <a href="https://valek-web.github.io/Sushi/">Demo</a>
+                            </div>
+                        </div>
+                        <div class="work" data-aos="zoom-in">
+                            <h3>Robuxshop</h3>
+                            <div class="work__wrapper">
+                                <!-- <a href="https://github.com/valek-web/Sushi">Code</a> -->
+                                <a href="https://robuxshop.ru/">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="prices" id="prices">
+                <div class="container">
+                    <div class="above_title">Прайс-лист</div>
+                    <ul class="prices__list">
+                        <li class="price" data-aos="fade-right">
+                            <div class="price__header">
+                                <h4 class="price__title">Landing-page</h4>
+                                <div class="price__num">от 4000 руб.</div>
+                            </div>
+                            <div class="price__descr">
+                                Одностраничный сайт для презентации услуг/товаров/...
+                            </div>
+                        </li>
+                        <li class="price" data-aos="fade-right">
+                            <div class="price__header">
+                                <h4 class="price__title">Корпоративный сайт</h4>
+                                <div class="price__num">от 10000 руб.</div>
+                            </div>
+                            <div class="price__descr">Сайт для вашего бизнеса или компании</div>
+                        </li>
+                        <li class="price" data-aos="fade-left">
+                            <div class="price__header">
+                                <h4 class="price__title">Интернет-магазин</h4>
+                                <div class="price__num">от 15000 руб.</div>
+                            </div>
+                            <div class="price__descr">Инструмент для ваших продаж в сети</div>
+                        </li>
+                        <li class="price" data-aos="fade-left">
+                            <div class="price__header">
+                                <h4 class="price__title">Web-приложение</h4>
+                                <div class="price__num">от 14000 руб.</div>
+                            </div>
+                            <div class="price__descr">
+                                Приложение внутри браузера для лучшего комфорта
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="contact__wrapper">
+                        <div class="contact__img">
+                            <img src="./img/my_photo.png" alt="my_photo" />
+                        </div>
+                        <div class="contact__info" data-aos="fade-left">
+                            <div class="above_title">Контакты</div>
+                            <h1 class="title">Свяжитесь со мной</h1>
+                            <div class="contact__social">Любым удобным для вас способом:</div>
+                            <div class="social__network">
+                                <div class="github">
+                                    <a href="https://github.com/valek-web"
+                                        ><i class="fa-brands fa-github"></i
+                                    ></a>
+                                </div>
+                                <div class="vk">
+                                    <a href="https://vk.com/ziruanov"
+                                        ><i class="fa-brands fa-vk"></i
+                                    ></a>
+                                </div>
+                                <div class="telegram">
+                                    <a href="https://t.me/valek_120"
+                                        ><i class="fa-brands fa-telegram"></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div class="contact__form-text">
+                                Или оставьте ваши данные и я сам вам напишу:
+                            </div>
+                            <form class="form">
+                                <div class="form__wrapper">
+                                    <div class="form__input">
+                                        <input required type="text" name="name" id="name_input" />
+                                        <label for="name">Ваше имя</label>
+                                    </div>
+                                    <div class="form__input">
+                                        <input
+                                            required
+                                            type="email"
+                                            name="email"
+                                            id="email_input"
+                                        />
+                                        <label for="email">Ваша почта</label>
+                                    </div>
+                                </div>
+
+                                <div class="form__input textarea">
+                                    <textarea required name="text_message" id="text"></textarea>
+                                    <label for="text_message">Ваше сообщение</label>
+                                </div>
+                                <div class="form__triggers">
+                                    <button class="button">Отправить сообщение</button>
+                                    <div class="form__policy">
+                                        <input required type="checkbox" name="policy" id="policy" />
+                                        <label for="policy"
+                                            >Я согласен(а) с
+                                            <a href="./policy.html">политикой конфиденциальности</a>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="https://kit.fontawesome.com/5da4ab2654.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init()
+        </script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
